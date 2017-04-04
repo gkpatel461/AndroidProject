@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gkpatel.myapplication.StopActivity"
+   >
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool_action_bar_stop"
+        ></android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/send_tv_stop"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/stop_tv"
+        android:rotation="270"
+        android:padding="60dp"
+        android:text="SEND>>>"
+        android:textSize="40dp"
+        android:textColor="@color/colorRed"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stop_tv"
+        android:text="STOP"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="100dp"
+        android:textColor="@color/colorRed"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/trash_tv_stop"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/stop_tv"
+        android:rotation="90"
+        android:padding="60dp"
+        android:text="TRASH>>>"
+        android:textSize="40dp"
+        android:textColor="@color/colorRed"
+        />
+</RelativeLayout>
